@@ -77,7 +77,9 @@ Copia este resultado en un archivo `appsettings.json` en la raíz de tu aplicaci
 ## 6. Instalar dependencias
 
 ```bash
-dotnet add package Microsoft.Extensions.Configuration && dotnet add package Microsoft.Extensions.Configuration.Json && dotnet add package Azure.Storage.Blobs
+dotnet add package Microsoft.Extensions.Configuration
+dotnet add package Microsoft.Extensions.Configuration.Json
+dotnet add package Azure.Storage.Blobs
 ```
 
 ---
